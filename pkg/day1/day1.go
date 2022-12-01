@@ -43,7 +43,7 @@ func Part1() string {
 	lines := config.RawInput("./pkg/" + pkg + "/" + config.INPUTFILE)
 	sums := sumElves(lines)
 
-	return cast.ToString(slice.Max(sums...))
+	return cast.ToString(slice.Max(sums))
 }
 
 func Part2() string {
@@ -52,5 +52,5 @@ func Part2() string {
 
 	sort.Ints(sums)
 
-	return cast.ToString(slice.Sum(sums[len(sums)-3:]...))
+	return cast.ToString(slice.Sum(sums[len(sums)-3:]))
 }

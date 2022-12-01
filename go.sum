@@ -1,7 +1,6 @@
-github.com/btm6084/utilities v1.1.42 h1:AviIV34k7t6nWHE7cxSXoxofcAl6KBmyEZoNzoURDZY=
-github.com/btm6084/utilities v1.1.42/go.mod h1:m1zNnFJR6f2rWYuC6pqu1XJFXAxjhtRbrGPXmGmGN+4=
+github.com/btm6084/utilities v1.1.43 h1:prAm1lRSJ4drWdNP1RUC8dhp2FE8xYH1wPuFuIL6rS4=
+github.com/btm6084/utilities v1.1.43/go.mod h1:m1zNnFJR6f2rWYuC6pqu1XJFXAxjhtRbrGPXmGmGN+4=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
-github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/frankban/quicktest v1.14.3 h1:FJKSZTDHjyhriyC81FLQ0LY93eSai0ZyR/ZIkd3ZUKE=
 github.com/google/go-cmp v0.5.8 h1:e6P7q2lk1O+qJJb4BtCQXlK8vWEO8V1ZeuEdJNOqZyg=
 github.com/kr/pretty v0.3.0 h1:WgNl7dwNpEZ6jJ9k1snq4pZsg7DOEN8hP9Xw0Tsjwk0=
