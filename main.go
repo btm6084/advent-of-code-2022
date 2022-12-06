@@ -3,18 +3,18 @@ package main
 import (
 	"fmt"
 
-	"github.com/btm6084/advent-of-code-2022/pkg/day1"
-	"github.com/btm6084/advent-of-code-2022/pkg/day2"
+	"github.com/btm6084/advent-of-code-2022/pkg/day01"
+	"github.com/btm6084/advent-of-code-2022/pkg/day02"
 )
 
 type Runner func() string
 
 var (
 	runners = []Runner{
-		day1.Part1,
-		day1.Part2,
-		day2.Part1,
-		day2.Part2,
+		day01.Part1,
+		day01.Part2,
+		day02.Part1,
+		day02.Part2,
 	}
 
 	labels = []string{
