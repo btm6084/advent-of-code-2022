@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/btm6084/utilities v1.1.43
+	github.com/davecgh/go-spew v1.1.1
 	github.com/spf13/cast v1.5.0
 )
 
