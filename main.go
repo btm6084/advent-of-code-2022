@@ -150,8 +150,8 @@ func main() {
 	}
 
 	if *day > 0 {
-		fmt.Printf("Day %d Part 1: %s\n", *day-1, runners[*day-1][0]())
-		fmt.Printf("Day %d Part 2: %s\n", *day-1, runners[*day-1][1]())
+		fmt.Printf("Day %d Part 1: %s\n", *day, runners[*day-1][0]())
+		fmt.Printf("Day %d Part 2: %s\n", *day, runners[*day-1][1]())
 
 		return
 	}
