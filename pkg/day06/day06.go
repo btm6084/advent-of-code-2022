@@ -6,6 +6,8 @@ import (
 	"strings"
 
 	"github.com/btm6084/advent-of-code-2022/pkg/config"
+	"github.com/btm6084/utilities/slice"
+	"github.com/spf13/cast"
 )
 
 type Empty struct{}
@@ -22,14 +24,28 @@ func init() {
 
 func Part1() string {
 	lines := config.RawInput("./pkg/" + pkg + "/" + config.INPUTFILE)
-	_ = lines
+	line := lines[0]
 
-	return "@todo"
+	for i := 4; i < len(line); i++ {
+		uniq := slice.Unique([]byte(line[i-4 : i]))
+		if len(uniq) == 4 {
+			return cast.ToString(i)
+		}
+	}
+
+	return "error"
 }
 
 func Part2() string {
 	lines := config.RawInput("./pkg/" + pkg + "/" + config.INPUTFILE)
-	_ = lines
+	line := lines[0]
 
-	return "@todo"
+	for i := 14; i < len(line); i++ {
+		uniq := slice.Unique([]byte(line[i-14 : i]))
+		if len(uniq) == 14 {
+			return cast.ToString(i)
+		}
+	}
+
+	return "error"
 }
