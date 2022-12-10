@@ -137,8 +137,6 @@ func calcScore(grid [][]int, row, col int) int {
 		}
 	}
 
-	// fmt.Printf("[%d,%d] %d, %d, %d, %d\n\n", row, col, nv, sv, ev, wv)
-
 	return nv * sv * ev * wv
 }
 

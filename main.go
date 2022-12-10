@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"time"
 
 	"github.com/btm6084/advent-of-code-2022/pkg/config"
 	"github.com/btm6084/advent-of-code-2022/pkg/day01"
@@ -150,15 +151,30 @@ func main() {
 	}
 
 	if *day > 0 {
-		fmt.Printf("Day %d Part 1: %s\n", *day, runners[*day-1][0]())
-		fmt.Printf("Day %d Part 2: %s\n", *day, runners[*day-1][1]())
+		start := time.Now()
+		solution := runners[*day-1][0]()
+		duration := time.Since(start)
+		fmt.Printf("Day %d Part 1: %s (%s)\n", *day, solution, duration)
+
+		start = time.Now()
+		solution = runners[*day-1][1]()
+		duration = time.Since(start)
+		fmt.Printf("Day %d Part 2: %s (%s)\n", *day, solution, duration)
+		fmt.Println()
 
 		return
 	}
 
 	for i := 0; i < len(runners); i++ {
-		fmt.Printf("Day %d Part 1: %s\n", i+1, runners[i][0]())
-		fmt.Printf("Day %d Part 2: %s\n", i+1, runners[i][1]())
+		start := time.Now()
+		solution := runners[i][0]()
+		duration := time.Since(start)
+		fmt.Printf("Day %d Part 1: %s (%s)\n", i+1, solution, duration)
+
+		start = time.Now()
+		solution = runners[i][1]()
+		duration = time.Since(start)
+		fmt.Printf("Day %d Part 2: %s (%s)\n", i+1, solution, duration)
 		fmt.Println()
 	}
 }
