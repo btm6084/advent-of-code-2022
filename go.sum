@@ -1,7 +1,7 @@
 github.com/btm6084/gojson v1.0.10 h1:WFaTMP55ywsD5yPb2H7A0WauOGz/J+KdYho2bH/33dc=
 github.com/btm6084/gojson v1.0.10/go.mod h1:ROiKZEBkGwZXSJ2PQk8OC/zUe2D4Eb4+riqMsBu8geU=
-github.com/btm6084/utilities v1.1.45 h1:lidiJay0fpSAOVjui/LBOkp4d1nvGKwss88wd6jLGFQ=
-github.com/btm6084/utilities v1.1.45/go.mod h1:m1zNnFJR6f2rWYuC6pqu1XJFXAxjhtRbrGPXmGmGN+4=
+github.com/btm6084/utilities v1.1.47 h1:H0/5QFRxPw6Tb7t6JM39s4bYeh0i5ikHr7mvx6bgxH4=
+github.com/btm6084/utilities v1.1.47/go.mod h1:m1zNnFJR6f2rWYuC6pqu1XJFXAxjhtRbrGPXmGmGN+4=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

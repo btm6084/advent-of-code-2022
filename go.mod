@@ -3,7 +3,7 @@ module github.com/btm6084/advent-of-code-2022
 go 1.19
 
 require (
-	github.com/btm6084/utilities v1.1.45
+	github.com/btm6084/utilities v1.1.47
 	github.com/davecgh/go-spew v1.1.1
 	github.com/spf13/cast v1.5.0
 )
